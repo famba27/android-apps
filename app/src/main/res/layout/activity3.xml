@@ -16,6 +16,17 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WINCARA EATS"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            />
+
+
         <ImageView
             android:layout_width="201dp"
             android:layout_height="160dp"

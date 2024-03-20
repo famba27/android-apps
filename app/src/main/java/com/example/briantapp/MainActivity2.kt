@@ -13,6 +13,13 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main2)
+        val button= findViewById<Button>(R.id.SignUp_btn)
+        button.setOnClickListener{
+
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+
+
 
         }
     }

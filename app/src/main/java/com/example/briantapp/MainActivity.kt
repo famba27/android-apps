@@ -12,11 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        val button = findViewById<Button>(R.id.Login_btn)
-        button.setOnClickListener{
-            val intent= Intent(this, MainActivity2::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.activity_main2)
+
     }
 }

@@ -15,6 +15,15 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sign_up: WINCARA EATS"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            />
 
 
 
